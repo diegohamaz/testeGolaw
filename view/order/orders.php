@@ -4,38 +4,40 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Clientes</title>
 		<style type="text/css">
-			table.contacts {
+			table.orders {
 				width: 100%;
 			}
-			table.contacts thead {
-				background-color: #eee;
+			table.orders thead {
+				background-color: #696969;
 				text-align: left;
 
 			}
-			table.contacts thead th {
+			table.orders thead th {
 				border: solid 1px #fff;
 				padding: 3px;
 			}
-			table.contacts tbody td {
+			table.orders tbody td {
 				border: solid 1px #eee;
 				padding: 3px;
+				color: #000;
 			}
 			a, a:hover, a:active, a:visited {
-				color: blue;
+				color: #000;
 				text-decoration: underline;
 			}
 		</style>
 	</head>
 	<body>
-
+		<br>
 		<div><a href="index.php?op=new_order">Adicionar Novo Pedido</a></div><br>
-		<table class="contacts" border="0" cellpadding="0" cellspacing="0">
+		<h3>Pedidos</h3>
+		<table class="orders" border="0" cellpadding="0" cellspacing="0">
 			<thead>
 				<tr>
-					<th><a href="?orderby=nome">Cliente</a></th>
-					<th><a href="?orderby=email">Produto</a></th>
-					<th><a href="?orderby=dt_cadastro">Quantidade</a></th>
-					<th><a href="?orderby=tp_pagamento">Valor</a></th>
+					<th><a href="?orderby=cliente">Cliente</a></th>
+					<th><a href="?orderby=produto">Produto</a></th>
+					<th><a href="?orderby=quantidade">Quantidade</a></th>
+					<th><a href="?orderby=valor">Valor</a></th>
 					<th>&nbsp</th>
 					<th>&nbsp</th>
 				</tr>

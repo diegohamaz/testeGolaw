@@ -7,7 +7,7 @@
 		</title>
 	</head>
 	<body>
-		<h3>Add New Client</h3>
+		<h3>Adicionar Novo Cliente</h3>
 		<?php
 			if ($errors) {
 				echo '<ul class="errors">';
@@ -26,7 +26,7 @@
 					<input type="text" name="email" value="<?php echo htmlentities($email); ?>">
 				<br>
 				<label for="Address">Data Cadastro: </label><br>
-					<textarea name="dt_cadastro"><?php echo htmlentities($dt_cadastro); ?></textarea>
+					<input type="text" name="dt_cadastro" value="<?php echo htmlentities($dt_cadastro); ?>" placeholder='Formato AAAA-MM-DD ...'>
 				<br>
 				<label for="phone">Tipo de Pagamento: </label><br>
 					<select name="tp_pagamento">

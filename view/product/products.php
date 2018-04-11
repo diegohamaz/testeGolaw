@@ -6,7 +6,7 @@
 				width: 100%;
 			}
 			table.products thead {
-				background-color: #4B0082;
+				background-color: #696969;
 				text-align: left;
 
 			}
@@ -17,16 +17,19 @@
 			table.products tbody td {
 				border: solid 1px #eee;
 				padding: 3px;
+				color: #000;
 			}
 			a, a:hover, a:active, a:visited {
-				color: blue;
+				color: #F0FFFF;
 				text-decoration: underline;
 			}
+	
 		</style>
 	</head>
 	<body>
 		<hr></hr>
 		<div><a href="index.php?op=new_product">Adicionar Novo Produto</a></div><br>
+		<h3>Produtos</h3>
 		<table class="products" border="0" cellpadding="0" cellspacing="0">
 			<thead>
 				<tr>
@@ -37,8 +40,7 @@
 					<th>&nbsp</th>
 					<th>&nbsp</th>
 				</tr>
-			</thead>
-		
+			</thead>		
 			<tbody>
 				<?php foreach ($products as $product) : ?>
 					<tr>	

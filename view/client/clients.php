@@ -5,28 +5,30 @@
 			table.contacts {
 				width: 100%;
 			}
-			table.contacts thead {
-				background-color: #eee;
+			table.clients thead {
+				background-color: #696969;
 				text-align: left;
 
 			}
-			table.contacts thead th {
+			table.clients thead th {
 				border: solid 1px #fff;
 				padding: 3px;
 			}
-			table.contacts tbody td {
+			table.clients tbody td {
 				border: solid 1px #eee;
 				padding: 3px;
+				color: #000;
 			}
 			a, a:hover, a:active, a:visited {
-				color: blue;
+				color: #F0FFFF;
 				text-decoration: underline;
 			}
 		</style>
 	</head>
 	<body>
 		<div><a href="index.php?op=new_client">Adicionar Novo Cliente</a></div><br>
-		<table class="contacts" border="0" cellpadding="0" cellspacing="0">
+		<h3>Clientes</h3>
+		<table class="clients" border="0" cellpadding="0" cellspacing="0">
 			<thead>
 				<tr>
 					<th><a href="?orderby=nome">Name</a></th>
