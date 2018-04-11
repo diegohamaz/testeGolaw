@@ -1,7 +1,7 @@
 Teste para desenvolvedor da GoLaw
-==============================
+==================================
 
-Executar o database na raiz da aplicação
+Executar o database.sql na raiz da aplicação
 
 Mudar as conexoes em model/Database.php
 
