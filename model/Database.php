@@ -2,7 +2,7 @@
 
 class Database 
 {
-    private static $dbName = 'crud_mvc_oop' ;
+    private static $dbName = 'database' ;
     private static $dbHost = 'localhost' ;
     private static $dbUsername = 'root';
     private static $dbUserPassword = '';
